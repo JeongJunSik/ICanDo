@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ICanDo", "ICanDo\ICanDo.vcxproj", "{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Debug|x64.ActiveCfg = Debug|x64
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Debug|x64.Build.0 = Debug|x64
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Debug|x86.Build.0 = Debug|Win32
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Release|x64.ActiveCfg = Release|x64
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Release|x64.Build.0 = Release|x64
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Release|x86.ActiveCfg = Release|Win32
+		{FEA126CE-64F6-4238-A87B-EE9ABF70C9FD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0588C7A8-5CAF-4953-9D61-72A59EDFFE4C}
+	EndGlobalSection
+EndGlobal
