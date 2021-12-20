@@ -2,16 +2,28 @@
 
 using namespace std;
 
+void table2()
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << "2 x " << i << " = " << 2 * i << endl;
+    }
+}
+
+void table3()
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << "2 x " << i << " = " << 2 * i << endl;
+    }
+}
+
 int main()
 {
-    string str;
+    table2();
+    cout << "-----------" << endl;
 
-    int in;
-    cin >> in;
-    for (int i = 1; i <= 8; i++)
-    {
-        cout << in << " * " << i << " = " << in * i << endl;
-    }
+    table3();
 
-	return 1;
+	return 0;
 }
