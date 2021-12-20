@@ -8,7 +8,7 @@ int main()
     cin >> n;
     for (int i = 1; i <= 9; i++)
     {
-        cout << n << " * " << i << " = " << n * i << '\n';
+        cout << n << " * " << i << " = " << n * i << endl;
     }
 
 	return 0;
