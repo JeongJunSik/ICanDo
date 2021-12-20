@@ -13,5 +13,5 @@ int main()
         cout << in << " * " << i << " = " << in * i << endl;
     }
 
-	return 0;
+	return 1;
 }
