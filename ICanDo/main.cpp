@@ -17,13 +17,22 @@ void table3()
         cout << "2 x " << i << " = " << 2 * i << endl;
     }
 }
-
+void table4()
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << "4 x " << i << " = " << 4 * i << endl;
+    }
+}
 int main()
 {
     table2();
     cout << "-----------" << endl;
 
     table3();
+cout << "-----------" << endl;
+
+    table4();
 
 	return 0;
 }
