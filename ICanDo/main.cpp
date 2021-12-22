@@ -24,6 +24,7 @@ void table4()
         cout << "4 x " << i << " = " << 4 * i << endl;
     }
 }
+
 int main()
 {
     table2();
