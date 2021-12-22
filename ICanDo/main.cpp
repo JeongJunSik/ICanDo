@@ -14,7 +14,7 @@ void table3()
 {
     for (int i = 1; i <= 9; i++)
     {
-        cout << "2 x " << i << " = " << 2 * i << endl;
+        cout << "3 x " << i << " = " << 3 * i << endl;
     }
 }
 
