@@ -18,12 +18,20 @@ void table3()
     }
 }
 
+void tableN(int n)
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << n << " x " << i << " = " << n * i << endl;
+    }
+}
+
 int main()
 {
-    table2();
+    tableN(2);
     cout << "-----------" << endl;
 
-    table3();
+    tableN(3);
 
-	return 0;
+    return 0;
 }
