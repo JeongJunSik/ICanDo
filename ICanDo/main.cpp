@@ -14,16 +14,24 @@ void table3()
 {
     for (int i = 1; i <= 9; i++)
     {
-        cout << "2 x " << i << " = " << 2 * i << endl;
+        cout << "3 x " << i << " = " << 3 * i << endl;
+    }
+}
+
+void tableN(int n)
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << n << " x " << i << " = " << n * i << endl;
     }
 }
 
 int main()
 {
-    table2();
+    tableN(2);
     cout << "-----------" << endl;
 
-    table3();
+    tableN(3);
 
-	return 0;
+    return 0;
 }
