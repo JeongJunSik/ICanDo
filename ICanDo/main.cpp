@@ -25,15 +25,22 @@ void table4()
         cout << "4 x " << i << " = " << 4 * i << endl;
     }
 }
+void table4()
+{
+    for (int i = 1; i <= 9; i++)
+    {
+        cout << "4 x " << i << " = " << 4 * i << endl;
+    }
+}
 
 int main()
 {
     tableN(2);
     cout << "-----------" << endl;
 
-    tableN(3);
+    table3();
+  cout << "-----------" << endl;
 
-    cout << "-----------" << endl;
 
     table4();
 
