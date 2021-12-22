@@ -18,11 +18,11 @@ void table3()
     }
 }
 
-void tableN(int n)
+void table4()
 {
     for (int i = 1; i <= 9; i++)
     {
-        cout << n << " x " << i << " = " << n * i << endl;
+        cout << "4 x " << i << " = " << 4 * i << endl;
     }
 }
 
@@ -33,5 +33,9 @@ int main()
 
     tableN(3);
 
-    return 0;
+    cout << "-----------" << endl;
+
+    table4();
+
+	return 0;
 }
